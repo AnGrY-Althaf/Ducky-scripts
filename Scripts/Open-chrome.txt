@@ -1,0 +1,13 @@
+REM windows chrome by AnGrY
+
+REM Open windows chrome
+DELAY 1000
+GUI r
+DELAY 500
+STRING chrome
+DELAY 500
+ENTER
+DELAY 750
+STRING https://www.instagram.com/ig.ang_ry?igsh=MXVpem4yem1xOXNrMw%3D%3D&utm_source=qr 
+ENTER
+DELAY 100
