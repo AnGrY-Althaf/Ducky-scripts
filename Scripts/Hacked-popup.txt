@@ -1,0 +1,17 @@
+DELAY 1000
+GUI r
+DELAY 300
+STRING PowerShell -w hidden -Command "Add-Type -AssemblyName PresentationFramework;[System.Windows.MessageBox]::Show('THANK YOU FOR PLUGIN ME IN ','HACKED')"
+DELAY 300
+ENTER
+DELAY 3000
+ENTER
+GUI r
+DELAY 500
+STRING chrome
+DELAY 500
+ENTER
+DELAY 750
+STRING https://st1.bollywoodlife.com/wp-content/uploads/2015/05/121.jpg
+ENTER
+DELAY 1000
